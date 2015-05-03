@@ -1,0 +1,133 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	background:url("../img/back.png");
+}
+
+#wrapper {
+	float:left;
+	width: 100%;
+}
+
+#sidebar {
+	background-color: #0C001A;
+	text-align:center;
+	padding-top:60px;
+	float: left;
+	display:none;
+	left: 300px;
+	height:700px;
+	margin-left: -300px;
+	position: fixed;
+	width: 300px;
+	overflow-y: hidden;
+	-webkit-box-shadow: 5px 0px 10px -1px #000;
+}
+
+#sidebar img {
+	width:200px;
+	margin-bottom:30px;
+}
+
+#sidebar ul {
+	list-style-type:none;
+}
+
+#sidebar a {
+	font-family: 'Text Me One', sans-serif;
+	font-size:30px;
+	border-bottom:1px solid #71a632;
+	color: #71a632;
+	text-decoration: none;
+}
+
+#sidebar li {
+	margin-top:20px;
+}
+
+#rest {
+	margin-left: 375px;
+	overflow-y: auto;
+	margin-top: 50px;
+	padding-bottom:30px;
+}
+
+h1 {
+	font-family: 'Text Me One', sans-serif;
+	color:#FFF;
+	font-size: 50px;
+	margin-bottom: 10px;
+	display:none;
+}
+
+#rest img {
+	width:900px;
+	border: 1px solid black;
+}
+
+#wrapper2 {
+ width: 900px;
+}
+
+#first {
+	border-right:1px dotted black;
+	border-left:1px dotted black;
+}
+
+.box {
+	margin-right:12px;
+	margin-top:30px;
+	width:275px;
+	height:200px;
+	padding-left:10px;
+	overflow:hidden;
+	display:inline-block;
+	vertical-align:text-top
+}
+
+p {
+	font-family: 'Text Me One', sans-serif;
+	color:#FFF;
+	font-size: 12px;	
+}
+
+h2 {
+	font-family: 'Text Me One', sans-serif;
+	color:#FFF;
+	font-size: 30px;
+	margin-bottom:20px;
+}
+
+h3 {
+	font-family: 'Text Me One', sans-serif;
+	color:#FFF;
+	font-size: 30px;
+	margin-bottom:60px;
+}
+
+h3 a{
+	color:#FFF;
+	font-size: 30px;
+	margin-bottom: 10px;
+	text-decoration:none;
+}
+

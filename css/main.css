@@ -1,0 +1,261 @@
+/*
+	Default Styles
+*/
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    margin: 0;
+    background:url("../img/tea.jpg");
+    background-position: center left;
+    background-attachment: fixed;
+    background-size:160%;
+}
+p {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+
+h1 {
+	font-size:3rem;
+    font-weight: 300;
+}
+
+/*
+
+    Nav
+
+*/
+.nav ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.nav ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+.nav ul li a { 
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #9a9e9f;
+}
+
+
+
+/*
+	Home
+*/
+
+#home {
+    height:100vh;
+    width:100%;
+    margin:0;
+}
+
+#homecontent {
+    width: 35%;
+    margin: 4% auto 0 auto;
+    display: block;
+    text-align: center;
+    padding:1%;
+}
+
+#home #prof {
+    width: 45%;
+    border-radius: 100%;
+    margin-bottom: 3%;
+}
+
+#home li {
+    display: inline-block;
+    margin: 0 3%;
+}
+
+#social-icons {
+    padding-left: 0px;
+    margin:10% 0;
+}
+
+#home a {
+    text-decoration: none;
+}
+
+#home i {
+    color: #9a9e9f;
+}
+
+
+#largetext { /* the part that says "Student...."*/
+    color: #9a9e9f;
+    font-size: 20px;
+    margin: 0 0 6% 0;
+}
+
+#smalltext { /*"I just want to code pretty things."*/
+    font-size: 15px;
+}
+#name {
+	font-weight: 300;
+}
+#name,
+#smalltext { color: #9a9e9f; margin: 0; } /* the part that says "I just want to code pretty things."*/
+
+
+
+/*
+	About
+*/
+
+#about {
+    height:100vh;
+    background-attachment: fixed;
+    margin:0;
+    overflow: hidden;
+    background: url("../img/old_moon.png");
+
+}
+
+#aboutcontent {
+    width:50%;
+    margin:7% auto;
+    text-align: justify;
+}
+
+#aboutcontent h1 {
+    font-size:80px;
+}
+
+#aboutcontent p {
+    font-size: 20px;
+}
+
+#centered {
+    margin:8%;
+    text-align: center;
+}
+
+#aboutcontent a,i {
+    text-decoration: none;
+    color:black;
+}
+
+/*
+	Shhhhh! ;)
+*/
+iframe:not([seamless]) { 
+    border:none;
+}
+
+#eggcontent {
+    width: 90%;
+    margin: 4% auto 0 auto;
+    display: block;
+    text-align: center;
+    padding:1%;
+}
+
+/*
+
+
+
+
+    PORTFOLIO PAGE
+
+
+
+
+*/
+
+
+/*
+
+    Header
+
+*/
+
+#header {
+    height:40vh;
+    width:100%;
+    margin:0;
+}
+
+#headercontent {
+    width: 35%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+#header h1 {
+    font-size: 80px;
+    color:#9a9e9f;
+    font-weight: 300;
+}
+
+#header li {
+    display: inline-block;
+    margin: 0 3%;
+}
+
+/*
+
+    Portfolio Content
+
+*/
+
+#portfolio {
+    height:auto;
+    background-attachment: fixed;
+    margin:0;
+    overflow: hidden;
+    background: url("../img/old_moon.png");
+
+}
+
+#portfoliocontent {
+    width:100%;
+    margin:7% auto;
+    text-align: justify;
+}
+
+.entry {
+    width:70%;
+    margin: 0 auto 15% auto;
+    text-align:left;
+}
+
+.entry img {
+    width:100%;
+    height:auto;
+    margin: 0 auto;
+}
+
+.entry h1 {
+    font-size:40px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.entry p {
+    font-size: 18px;
+    text-align: left;
+}
+
+.entry a {
+    text-decoration: none;
+}
+
+.btn {
+  font-size: 20px;
+  background: #72a632;
+  padding: 10px 20px;
+  text-decoration: none;
+  position: absolute;
+  margin: 1% 0;
+  color: #242424 !important;
+}

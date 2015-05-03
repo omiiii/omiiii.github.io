@@ -1,0 +1,127 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	background: url("../img/retro_intro.png");
+	background-repeat: repeat;
+	overflow-x:hidden;
+}
+
+#header {
+	margin: 50px 150px 20px 150px;
+}
+
+hr {
+	color: #DCDCDC;
+	width: 1066px;
+	vertical-align:middle;
+}
+
+#header p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:200;
+	font-size:40px;
+	float:left;
+}
+
+#header ul{
+	list-style-type: none;
+	float:right;
+	margin-top:10px;
+	display:inline;
+	margin-right:-12px;
+}
+
+#header li{
+	display: inline;
+}
+
+#header li a{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:300;
+	font-size:20px;
+	text-decoration:none;
+	color:black;
+	margin-left:20px;
+}
+
+#header li a:hover{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:20px;
+	text-decoration:none;
+	color:purple;
+}
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  clear:both;
+  width:1066px;
+  margin-left:150px;
+  margin-right:150px;
+  margin-bottom:30px;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+  
+#wrapper {
+	padding-left:150px;
+	padding-right:150px;
+	width:100%;
+}
+
+#first {
+	margin-right:62px;
+}
+
+#footer {
+	margin: 20px 150px 50px 150px;
+}
+
+#footer p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:12px;
+	float:left;
+}

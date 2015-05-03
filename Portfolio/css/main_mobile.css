@@ -1,0 +1,335 @@
+/*
+    Shrink the page! Do it!
+*/
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+ /*
+        Default Styles
+    */
+    body { overflow-y: scroll }
+    section {
+        height: auto;
+        padding: 0px;
+    }
+
+    /*
+        Reveal Modals
+    */
+    .reveal-modal h1 {
+        font-size: 1.5rem;
+        font-weight: 200;
+        text-align: left;
+    }
+    .reveal-modal p {
+        font-size: 0.8rem;
+        text-align: left;
+        margin-top: 6%;
+    }
+    .reveal-modal img {
+        margin: 0 auto;
+        width: 40%;
+    }
+
+    /*
+        Previous Right panel
+    */
+    .right_panel { float: none }
+
+    /*
+        Content
+    */
+
+    .content {
+        width:58.33333% !important;
+    }
+
+    /*
+        Container
+    */
+    .container { display: initial }
+
+    /*
+        Home
+    */
+    #main { height: auto !important;  padding:50px 5px; }
+    #home hr {
+        width:50%;
+        margin: 20px auto;
+    }
+    #home #prof {
+        display: none !important;
+    }
+    #home #prof_mobile {
+        margin: 0 auto !important;
+        width: 280px !important;
+        display:inherit !important;
+    }
+    #home #social-icons {
+        margin: 0;
+        display: inherit !important;
+    }
+
+    #smalltext {
+        display:inherit !important;
+    }
+    #home li { margin: 0 5px }
+    #home i { font-size: 1.8rem }
+    #largetext,
+    #less,
+    #more { display: none !important }
+
+    /*
+        About Page
+    */
+    #aboutcontent {
+        padding: 70px;
+        background-color: #FFF;
+        color: #231f20;
+        height: auto;
+        display: inherit !important;
+        text-align: center;
+    }
+    #aboutcont h1 {
+        font-size: 2.5rem;
+        margin-bottom: 5%;
+    }
+    #aboutcont p {
+        text-align: center;
+        margin-bottom: 1%;
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+    #aboutcont img { display: none !important }
+    #aboutcont i {
+        font-size: 26px;
+        text-align: center;
+        color: #231f20;
+    }
+
+    /*
+        Portfolio
+    */
+    #port {
+        background: none;
+        padding: 0;
+        display: inherit !important;
+        margin: 0;
+        opacity: 1 !important;
+    }
+    #portcontent {
+        height: auto;
+        background-color: #FFF;
+        padding: 10px;
+        color: #231f20;
+        display: inherit !important;
+        text-align: center;
+    }
+    #portcontent hr { display: none !important }
+    #portcontent ul { margin-left: 0 !important }
+    #portcontent h1 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    #portcontent img { width: 60% }
+
+    /*
+        Resume
+    */
+    #resume { height: auto }
+    #resume hr {
+        color: black;
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    #resume h1 {
+        font-size: 2.5rem;
+        font-weight: 100;
+    }
+    #resume h2 {
+        font-size: 1.2rem;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 7%;
+    }
+    #resumecontent {
+        background-color: #FFF;
+        color: #231f20;
+        text-align: left;
+        font-size: 12px;
+        padding: 40px;
+        height: auto;
+        display: inherit;
+    }
+    #resume #download p {
+        color: #231f20;
+        font-weight: 400;
+        font-size: 12px;
+    }
+}
+
+
+
+/*
+	Go to the site on your phone! Do it!
+*/
+@media only screen and (max-width: 40em) { 
+    /*
+        Default Styles
+    */
+    body { overflow-y: scroll }
+    section {
+        height: auto;
+        padding: 0px;
+    }
+
+    /*
+        Reveal Modals
+    */
+    .reveal-modal h1 {
+        font-size: 1.5rem;
+        font-weight: 200;
+        text-align: left;
+    }
+    .reveal-modal p {
+        font-size: 0.8rem;
+        text-align: left;
+        margin-top: 6%;
+    }
+    .reveal-modal img {
+        margin: 0 auto;
+        width: 40%;
+    }
+
+    /*
+        Previous Right panel
+    */
+    .right_panel { float: none }
+
+    /*
+        Container
+    */
+    .container { display: initial }
+
+    /*
+        Home
+    */
+    #main { height: auto !important;  padding:20px 2px; }
+    #home #prof {
+        display: none !important;
+    }
+    #home #prof_mobile {
+        display: inherit !important;
+        width: 280px !important;
+        margin: 0 auto !important;
+    }
+    #home #social-icons {
+        margin: 0;
+        display: inherit !important;
+    }
+
+    #home #name {
+        font-size:3rem;
+    }
+
+    #largetext {
+        display:inherit !important;
+        font-size:0.9rem;
+    }
+    #home li { margin: 0 5px }
+    #home i { font-size: 1.8rem }
+    #smalltext,
+    #less,
+    #more { display: none !important }
+
+    /*
+        About Page
+    */
+    #aboutcontent {
+        padding: 10px;
+        background-color: #FFF;
+        color: #231f20;
+        height: auto;
+        display: inherit !important;
+        text-align: center;
+    }
+    #aboutcont h1 {
+        font-size: 2.5rem;
+        margin-bottom: 5%;
+    }
+    #aboutcont p {
+        text-align: center;
+        margin-bottom: 1%;
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+    #aboutcont img { display: none !important }
+    #aboutcont i {
+        font-size: 26px;
+        text-align: center;
+        color: #231f20;
+    }
+
+    /*
+        Portfolio
+    */
+    #port {
+        background-color: white;
+        padding: 0;
+        display: inherit !important;
+        margin: 0;
+        opacity: 1 !important;
+    }
+    #portcontent {
+        height: auto;
+        background-color: #FFF;
+        padding: 10px;
+        color: #231f20;
+        display: inherit !important;
+        text-align: center;
+    }
+    #portcontent hr { display: none !important }
+    #portcontent ul { margin-left: 0 !important }
+    #portcontent h1 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    #portcontent img { width: 80% }
+
+    /*
+        Resume
+    */
+    #resume { height: auto }
+    #resume hr {
+        color: black;
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    #resume h1 {
+        font-size: 2.5rem;
+        font-weight: 100;
+    }
+    #resume h2 {
+        font-size: 1.2rem;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 10%;
+    }
+    #resumecontent {
+        background-color: #FFF;
+        color: #231f20;
+        text-align: left;
+        font-size: 12px;
+        padding: 10px;
+        height: auto;
+        display: inherit;
+    }
+    #resume #download p {
+        color: #231f20;
+        font-weight: 400;
+        font-size: 12px;
+    }
+}

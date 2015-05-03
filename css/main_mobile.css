@@ -1,0 +1,213 @@
+/*
+    Shrink the page! Do it!
+*/
+
+@media only screen and (max-width: 64.063em) {
+ /*
+        Default Styles
+    */
+
+    body {
+        height:100vh;
+    }
+
+    /*
+        Navigation
+    */
+
+    .nav {
+        padding: 10px 0 0 0;
+        background-color: black
+    }
+    .nav ul li a {
+        padding: 5px 10px;
+    }
+
+
+    /*
+        Home
+    */
+
+    #home {
+        height: auto !important;
+        background:url("../img/tea.jpg");
+        background-position: center left;
+        background-attachment: fixed;
+        background-size: 160%;
+        margin: 0;
+    }
+
+    #homecontent {
+        width: 40%;
+        background-color: black;
+        padding: 3%;
+        margin: 0 auto;
+    }
+
+    #home #prof {
+        width:200px !important;
+    }
+
+    #social-icons {margin-bottom: 2%}
+    #home i { font-size: 1.8rem }
+
+    /*
+        About Page
+    */
+
+    #about {
+        height:auto;
+    }
+    #aboutcontent {
+        height: auto;
+        display: inherit !important;
+        margin: 6% auto;
+    }
+
+    #aboutcontent {
+        font-size: 12px;
+    }
+
+
+    /*
+
+        Header
+
+    */
+
+    #header {
+        height: auto !important;
+        background:url("../img/tea.jpg");
+        background-position: bottom left;
+        background-attachment: fixed;
+        background-size: 130%;
+        width:100%;
+        padding: 0;
+    }
+
+    #headercontent {
+        width: 40%;
+        padding: 3%;
+        margin: 0 auto;
+    }
+
+    #header ul {
+        margin: 0 auto;
+    }
+}
+
+
+/*
+	Go to the site on your phone! Do it!
+*/
+@media only screen and (max-width: 40em) {
+     /*
+        Default Styles
+    */
+
+    body {
+        background-image: none;
+        background-color: black !important;
+        height:auto;
+    }
+
+    /*
+        Navigation
+    */
+
+    .nav {
+        padding: 0px 0 0 0;
+        background-color: black;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .nav ul {
+        display:inherit;
+        margin: 0 auto;
+    }
+    .nav ul li a {
+        padding: 15px 10px;
+    }
+
+    /*
+        Home
+    */
+
+    #home {
+        height:auto !important;
+        width: inherit !important;
+        background-color: black !important;
+    }
+
+    #homecontent {
+        width: inherit;
+        margin:0;
+        background-color: black;
+    }
+
+    #home #prof {
+        width:250px !important;
+    }
+
+    #home li { margin: 0 5px }
+    #home i { font-size: 1.8rem }
+    /*
+        About Page
+    */
+
+    #about {
+        height:100%;
+    }
+
+    #aboutcontent {
+        height: inherit !important;
+        display: inherit !important;
+        width: 70%;
+    }
+
+    #aboutcontent p {
+        font-size: 15px;
+    }
+
+    /*
+        Header
+    */
+
+    #header {
+        height:auto !important;
+        width: inherit !important;
+        background-color: black !important;
+        padding: 0;
+    }
+
+    #headercontent {
+        width: inherit;
+        margin:0;
+        background-color: black;
+    }
+
+    /*
+
+        Portfolio Content
+    */
+
+    .entry {
+        text-align: center;
+    }
+
+    .entry h1 {
+        font-size: 30px;
+    }
+
+    .entry p {
+        font-size: 15px;
+        margin: 10% 0;
+    }
+
+    .btn {
+        position: initial;
+    }
+
+
+}
