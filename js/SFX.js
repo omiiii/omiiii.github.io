@@ -43,4 +43,4 @@ $( document ).ready(function() {
 });
 
 //shhhhhhhhhh!
-var secret = new kc('egg.html');
+var secret = new kc('egg');
