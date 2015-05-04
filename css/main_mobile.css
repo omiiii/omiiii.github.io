@@ -41,6 +41,7 @@
         width: 60%;
         padding: 3%;
         margin: 0 auto;
+        opacity: 1 !important;
     }
 
     #home #prof {
@@ -106,6 +107,7 @@
         background-image: none;
         background-color: black !important;
         height:auto;
+        overflow: scroll;
     }
 
     /*

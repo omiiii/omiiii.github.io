@@ -1,11 +1,12 @@
 var s;
+var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
 /*
 	Parallax
 */
 
 $( document ).ready(function() {
-	if ( $( "#homecontent" ).length ) {
+	if ( $( "#homecontent" ).length && !isMobile) {
 		s = skrollr.init({
 			edgeStrategy: 'set',
 			easing: {
