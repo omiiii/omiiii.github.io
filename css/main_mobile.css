@@ -38,8 +38,7 @@
     }
 
     #homecontent {
-        width: 40%;
-        background-color: black;
+        width: 60%;
         padding: 3%;
         margin: 0 auto;
     }
@@ -61,11 +60,9 @@
     #aboutcontent {
         height: auto;
         display: inherit !important;
-        margin: 6% auto;
-    }
-
-    #aboutcontent {
+        margin: 12% auto;
         font-size: 12px;
+        width:65%;
     }
 
 
@@ -144,6 +141,8 @@
         width: inherit;
         margin:0;
         background-color: black;
+        opacity: 1 !important;
+
     }
 
     #home #prof {
@@ -157,13 +156,12 @@
     */
 
     #about {
-        height:100%;
+        height:auto;
     }
 
     #aboutcontent {
-        height: inherit !important;
-        display: inherit !important;
-        width: 70%;
+        width: 80%;
+        text-align: left;
     }
 
     #aboutcontent p {
