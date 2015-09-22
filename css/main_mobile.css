@@ -30,8 +30,8 @@
 
     #home {
         height: auto !important;
-        background:url("../img/tea.jpg");
-        background-position: center left;
+        background:url("../img/plants.jpg");
+        background-position: top left;
         background-attachment: fixed;
         background-size: 160%;
         margin: 0;

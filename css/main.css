@@ -5,10 +5,10 @@
 body {
     font-family: 'Alegreya Sans', sans-serif;
     margin: 0;
-    background:url("../img/tea.jpg");
-    background-position: center left;
+    background:url("../img/plants.jpg");
+    background-position: top left;
     background-attachment: fixed;
-    background-size:160%;
+    background-size:140%;
 }
 p {
     font-family: 'Alegreya Sans', sans-serif;
