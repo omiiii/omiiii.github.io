@@ -16,7 +16,7 @@
     */
 
     .nav {
-        padding: 10px 0 0 0;
+        padding: 8px 0;
         background-color: black
     }
     .nav ul li a {
@@ -62,7 +62,7 @@
         height: auto;
         display: inherit !important;
         margin: 12% auto;
-        font-size: 12px;
+        font-size: 3vh;
         width:65%;
     }
 
@@ -76,9 +76,9 @@
     #header {
         height: auto !important;
         background:url("../img/tea.jpg");
-        background-position: bottom left;
+        background-position: top right;
         background-attachment: fixed;
-        background-size: 130%;
+        background-size: 160%;
         width:100%;
         padding: 0;
     }
@@ -92,6 +92,30 @@
     #header ul {
         margin: 0 auto;
     }
+
+    /*
+
+        Portfolio Content
+    */
+
+    .entry {
+        text-align: center;
+    }
+
+    .entry p {
+        margin:7% 0;
+    }
+
+    .btn {
+        position: initial;
+    }
+
+    .description {
+        width: 100%;
+        margin:0;
+    }
+
+
 }
 
 
@@ -115,7 +139,7 @@
     */
 
     .nav {
-        padding: 0px 0 0 0;
+        padding: 0;
         background-color: black;
         margin: 0 auto;
         display: flex;
@@ -167,7 +191,7 @@
     }
 
     #aboutcontent p {
-        font-size: 15px;
+        font-size: 2.5vh;
     }
 
     /*
@@ -207,6 +231,11 @@
 
     .btn {
         position: initial;
+    }
+
+    .description {
+        width: 100%;
+        margin:0;
     }
 
 

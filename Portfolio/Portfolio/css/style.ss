@@ -1,3 +1,0 @@
-/*
-Custom CSS for nayomi.me
-*/

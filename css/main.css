@@ -59,7 +59,7 @@ h1 {
 
 #homecontent {
     width: 35%;
-    margin: 4% auto 0 auto;
+    margin: 12vh auto 0 auto;
     display: block;
     text-align: center;
     padding:1%;
@@ -122,18 +122,21 @@ h1 {
 }
 
 #aboutcontent {
-    width:50%;
+    width:60%;
     margin:7% auto;
     text-align: justify;
 }
 
 #aboutcontent h1 {
     font-size:80px;
+    color:black;
 }
 
 #aboutcontent p {
-    font-size: 20px;
-}
+    font-size: 3.3vh;
+    font-weight:300;
+    color:black;
+} 
 
 #centered {
     margin:8%;
@@ -180,7 +183,7 @@ iframe:not([seamless]) {
 */
 
 #header {
-    height:40vh;
+    height:auto;
     width:100%;
     margin:0;
 }
@@ -240,11 +243,13 @@ iframe:not([seamless]) {
     font-size:40px;
     font-weight: 300;
     text-align: left;
+    color:black;
 }
 
 .entry p {
     font-size: 18px;
     text-align: left;
+    color:black;
 }
 
 .entry a {
@@ -259,4 +264,9 @@ iframe:not([seamless]) {
   position: absolute;
   margin: 1% 0;
   color: #242424 !important;
+}
+
+.description {
+	width: 60%;
+	margin:0 auto;
 }
