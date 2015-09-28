@@ -117,7 +117,7 @@ h1 {
     background-attachment: fixed;
     margin:0;
     overflow: hidden;
-    background: url("../img/old_moon.png");
+    background: url("../img/paper.png");
 
 }
 
@@ -217,7 +217,7 @@ iframe:not([seamless]) {
     background-attachment: fixed;
     margin:0;
     overflow: hidden;
-    background: url("../img/old_moon.png");
+    background: url("../img/paper.png");
 
 }
 
