@@ -211,6 +211,10 @@
         background-color: black;
     }
 
+    #header li {
+        margin:0 auto;
+    }
+
     /*
 
         Portfolio Content
