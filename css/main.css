@@ -270,3 +270,29 @@ iframe:not([seamless]) {
 	width: 60%;
 	margin:0 auto;
 }
+
+/*
+
+
+
+    BLOG PAGE
+
+
+
+
+*/
+
+#blog {
+    height:auto;
+    background-attachment: fixed;
+    margin:0;
+    overflow: hidden;
+    background: url("../img/paper.png");
+
+}
+
+#blogcontent {
+    width:100%;
+    margin:7% auto;
+    text-align: justify;
+}
