@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule ^resume$ /NayomiMitchell_Resume.pdf [P]
+RewriteRule ^home$ home.html [NC]
+RewriteRule ^portfolio$ portfolio.html [NC]
+RewriteRule ^egg$ egg.html [NC]
+
+

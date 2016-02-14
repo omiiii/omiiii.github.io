@@ -30,7 +30,7 @@
 
     #home {
         height: auto !important;
-        background:url("../img/plants.jpg");
+        background:url("../img/for.jpg");
         background-position: top left;
         background-attachment: fixed;
         background-size: 160%;
@@ -75,7 +75,7 @@
 
     #header {
         height: auto !important;
-        background:url("../img/plants.jpg");
+        background:url("../img/for.jpg");
         background-position: top right;
         background-attachment: fixed;
         background-size: 160%;
@@ -212,7 +212,7 @@
     }
 
     #header li {
-        margin:0 auto;
+        margin:0 5px;
     }
 
     /*
