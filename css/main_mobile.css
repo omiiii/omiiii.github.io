@@ -1,197 +1,123 @@
 /*
     Shrink the page! Do it!
 */
-
 @media only screen and (max-width: 64.063em) {
- /*
+  /*
         Default Styles
     */
 
-    body {
-        height:100vh;
-    }
+  body {
+    background-size: cover;
+  }
 
-    /*
-        Navigation
+  /*
+        Page
     */
+  #profile {
+    padding: 6% 0;
+    flex-direction: column;
+    height: 100%;
+  }
 
-    .nav {
-        padding: 8px 0;
-        background-color: black
-    }
-    .nav ul li a {
-        padding: 5px 10px;
-    }
-
-
-    /*
-        Home
+  /*
+        About
     */
+  #aboutcontent {
+    width: 80%;
+    text-align: left;
+  }
 
-    #home {
-        height: auto !important;
-        background:url("../img/for.jpg");
-        background-position: top left;
-        background-attachment: fixed;
-        background-size: 160%;
-        margin: 0;
-    }
+  #aboutcontent h1 {
+    font-size: 3.5em;
+  }
 
-    #homecontent {
-        width: 60%;
-        padding: 3%;
-        margin: 0 auto;
-        opacity: 1 !important;
-    }
+  #aboutcontent p {
+    font-size: 2.2em;
+  }
 
-    #home #prof {
-        width:200px !important;
-    }
+  #social-icons li {
+    margin: 0 10%;
+  }
 
-    #social-icons {margin-bottom: 2%}
-    #home i { font-size: 1.8rem }
+  #social-icons i {
+      font-size: 2.5em;
+  }
 
-    /*
-        About Page
-    */
+  /*
+    Header
+*/
+  #header {
+    height: auto !important;
+    background: url("../img/bg1.jpg");
+    background-position: top right;
+    background-attachment: fixed;
+    background-size: 160%;
+    width: 100%;
+    padding: 0;
+  }
 
-    #about {
-        height:auto;
-    }
-    #aboutcontent {
-        height: auto;
-        display: inherit !important;
-        margin: 12% auto;
-        font-size: 3vh;
-        width:65%;
-    }
+  #headercontent {
+    width: 40%;
+    padding: 3%;
+    margin: 0 auto;
+  }
 
+  #header ul {
+    margin: 0 auto;
+  }
 
-    /*
-
-        Header
-
-    */
-
-    #header {
-        height: auto !important;
-        background:url("../img/for.jpg");
-        background-position: top right;
-        background-attachment: fixed;
-        background-size: 160%;
-        width:100%;
-        padding: 0;
-    }
-
-    #headercontent {
-        width: 40%;
-        padding: 3%;
-        margin: 0 auto;
-    }
-
-    #header ul {
-        margin: 0 auto;
-    }
-
-    /*
+  /*
 
         Portfolio Content
     */
 
-    .entry {
-        text-align: center;
-    }
+  .entry {
+    text-align: center;
+  }
 
-    .entry p {
-        margin:7% 0;
-    }
+  .entry h1 {
+    font-size:2.5em;
+  }
 
-    .btn {
-        position: initial;
-    }
+  .entry p {
+    font-size:1.5em;
+  }
 
-    .description {
-        width: 100%;
-        margin:0;
-    }
+  .btn {
+    position: initial;
+    margin: 5% 0;
+  }
 
+  .description {
+    width: 100%;
+  }
 
-}
-
-
-/*
+  /*
 	Go to the site on your phone! Do it!
 */
-@media only screen and (max-width: 40em) {
-     /*
-        Default Styles
-    */
+  @media only screen and (max-width: 40em) {
 
-    body {
-        background-image: none;
-        background-color: black !important;
-        height:auto;
-        overflow: scroll;
-    }
-
-    /*
-        Navigation
-    */
-
-    .nav {
-        padding: 0;
-        background-color: black;
-        margin: 0 auto;
-        display: flex;
-    }
-
-    .nav ul {
-        display:inherit;
-        margin: 0 auto;
-    }
-    .nav ul li a {
-        padding: 15px 10px;
-    }
-
-    /*
-        Home
-    */
-
-    #home {
-        height:auto !important;
-        width: inherit !important;
-        background-color: black !important;
-    }
-
-    #homecontent {
-        width: inherit;
-        margin:0;
-        background-color: black;
-        opacity: 1 !important;
-
-    }
-
-    #home #prof {
-        width:250px !important;
-    }
-
-    #home li { margin: 0 5px }
-    #home i { font-size: 1.8rem }
     /*
         About Page
     */
 
-    #about {
-        height:auto;
+    #aboutcontent {
+      width: 75%;
+      text-align: left;
     }
 
-    #aboutcontent {
-        width: 80%;
-        text-align: left;
+    #aboutcontent h1 {
+      font-size: 5vh;
     }
 
     #aboutcontent p {
-        font-size: 3.4vh;
+      font-size: 2.8vh;
+      font-weight: 400;
+    }
+
+    #aboutcontent li {
+      font-size: 1.4vh;
+      margin: 0 15%;
     }
 
     /*
@@ -199,48 +125,46 @@
     */
 
     #header {
-        height:auto !important;
-        width: inherit !important;
-        background-color: black !important;
-        padding: 0;
+      height: auto;
+      width: inherit;
+      background-color: rgb(19, 19, 19);
+      padding: 0;
     }
 
     #headercontent {
-        width: inherit;
-        margin:0;
-        background-color: black;
+      width: inherit;
+      margin: 0;
+      background-color: rgb(19, 19, 19);
     }
 
     #header li {
-        margin:0 5px;
+      margin: 0 5px;
     }
 
     /*
-
         Portfolio Content
     */
 
     .entry {
-        text-align: center;
+      text-align: center;
     }
 
     .entry h1 {
-        font-size: 30px;
+      font-size: 2.2em;
     }
 
     .entry p {
-        font-size: 15px;
-        margin: 10% 0;
+      font-size: 1.2em;
+      margin: 10% 0;
     }
 
     .btn {
-        position: initial;
+      position: initial;
     }
 
     .description {
-        width: 100%;
-        margin:0;
+      width: 100%;
+      margin: 0;
     }
-
-
+  }
 }

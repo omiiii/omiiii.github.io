@@ -5,11 +5,13 @@
 body {
     font-family: 'Alegreya Sans', sans-serif;
     margin: 0;
-    background:url("../img/for.jpg");
-    background-position: bottom center;
+    background:url("../img/bg1.jpg");
+    background-position: top right;
     background-attachment: fixed;
-    background-size:120%;
+    background-repeat:no-repeat;
+    background-size:cover;
 }
+
 p {
     font-family: 'Alegreya Sans', sans-serif;
 }
@@ -21,132 +23,64 @@ h1 {
 }
 
 /*
-
-    Nav
-
-*/
-.nav ul {
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-    font-weight: 400;
-    text-align: center;
-}
-
-.nav ul li {
-    display: inline-block;
-    text-align: center;
-}
-
-.nav ul li a { 
-    display: block;
-    padding: 15px 20px;
-    text-decoration: none;
-    color: #9a9e9f;
-}
-
-
-
-/*
-	Home
+    Profile
 */
 
-#home {
-    height:100vh;
+#page {
     width:100%;
     margin:0;
 }
 
-#homecontent {
-    width: 35%;
-    margin: 12vh auto 0 auto;
-    display: block;
-    text-align: center;
-    padding:1%;
-    z-index: -1000;
+#profile {
+    height:100vh;
+    display:flex;
+    align-items: center;
 }
-
-#home #prof {
-    width: 45%;
-    border-radius: 100%;
-    margin-bottom: 3%;
-}
-
-#home li {
-    display: inline-block;
-    margin: 0 3%;
-}
-
-#social-icons {
-    padding-left: 0px;
-    margin:10% 0;
-}
-
-#home a {
-    text-decoration: none;
-}
-
-#home i {
-    color: #9a9e9f;
-}
-
-
-#largetext { /* the part that says "Student...."*/
-    color: #9a9e9f;
-    font-size: 20px;
-    margin: 0 0 6% 0;
-}
-
-#smalltext { /*"I just want to code pretty things."*/
-    font-size: 15px;
-}
-#name {
-	font-weight: 300;
-}
-#name,
-#smalltext { color: #9a9e9f; margin: 0; } /* the part that says "I just want to code pretty things."*/
-
-
 
 /*
 	About
 */
-
-#about {
-    height:100vh;
-    background-attachment: fixed;
-    margin:0;
-    overflow: hidden;
-    background: url("../img/paper.png");
-
-}
-
 #aboutcontent {
-    width:60%;
-    margin:7% auto;
-    text-align: justify;
+    width: 40%;
+    margin-left:auto;
+    padding: 0 10%;
 }
 
 #aboutcontent h1 {
-    font-size:80px;
-    color:black;
+    font-size:4.5em;
+    color:rgb(19, 19, 19);
 }
 
 #aboutcontent p {
-    font-size: 3.3vh;
-    font-weight:300;
-    color:black;
+    font-size: 2em;
+    font-weight:400;
+    color:rgb(19, 19, 19);
 } 
 
-#centered {
-    margin:8%;
-    text-align: center;
+#aboutcontent li {
+    display: inline-block;
+    margin: 0 3%;
 }
 
-#aboutcontent a,i {
+#aboutcontent a {
     text-decoration: none;
-    color:black;
 }
+
+#social-icons {
+    text-align: center;
+    padding: 0;
+    margin: 10% 0;
+}
+
+#social-icons i {
+    font-size:2.5vh;
+    color:rgb(19, 19, 19);
+}
+
+.accent {
+    color: #177569;
+    font-weight:500;
+ }
 
 /*
 	Shhhhh! ;)
@@ -195,6 +129,10 @@ iframe:not([seamless]) {
     text-align: center;
 }
 
+#header nav {
+    position: relative;
+}
+
 #header h1 {
     font-size: 80px;
     color:#9a9e9f;
@@ -217,7 +155,7 @@ iframe:not([seamless]) {
     background-attachment: fixed;
     margin:0;
     overflow: hidden;
-    background: url("../img/paper.png");
+    background-color:rgb(19, 19, 19);
 
 }
 
@@ -243,13 +181,13 @@ iframe:not([seamless]) {
     font-size:40px;
     font-weight: 300;
     text-align: left;
-    color:black;
+    color:#9a9e9f;
 }
 
 .entry p {
     font-size: 18px;
     text-align: left;
-    color:black;
+    color:#9a9e9f;
 }
 
 .entry a {
@@ -263,12 +201,11 @@ iframe:not([seamless]) {
   text-decoration: none;
   position: absolute;
   margin: 1% 0;
-  color: #242424 !important;
+  color: #242424;
 }
 
 .description {
 	width: 60%;
-	margin:0 auto;
 }
 
 /*
@@ -284,10 +221,8 @@ iframe:not([seamless]) {
 
 #blog {
     height:auto;
-    background-attachment: fixed;
     margin:0;
-    overflow: hidden;
-    background: url("../img/paper.png");
+    background-color:rgb(19, 19, 19);
 
 }
 

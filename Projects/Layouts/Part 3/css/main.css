@@ -1,0 +1,125 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	background: url("../img/back.png");
+	background-repeat: repeat;
+	overflow-x:hidden;
+}
+
+#header {
+	width:1366;
+	height:90px;
+	background-color: #A7CCE8;
+	padding-left:150px;
+	padding-right:150px;
+	padding-top: 9px;
+	overflow: hidden;
+}
+
+#header p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size:60px;
+	float: left;
+}
+
+#logo {
+	width:128px;
+	height: auto;
+}
+
+#header ul{
+	list-style-type: none;
+	float:right;
+	margin-top:20px;
+	display:inline-block;
+}
+
+#header li{
+	display: inline;
+}
+
+#header li a{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:30px;
+	font-weight: 300;
+	text-decoration:none;
+	margin-left:20px;
+	color:black;
+}
+
+#header li a:hover{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	text-decoration:none;
+	color:#235D8A;
+}
+
+hr {
+	color: #DCDCDC;
+	width: 100%;
+	vertical-align:middle;
+}
+  
+
+
+#footer {
+	text-align: center;
+}
+
+#footer p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:12px;
+}
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  clear:both;
+  height:500px;
+  margin-left:200px;
+  margin-right:190px;
+  margin-bottom:30px;
+  border: 1px solid #A7CCE8;
+  }
+
+#title {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+	float: left;
+	margin-left: 200px;
+	font-size:40px;
+}
+
+.container_12 img{
+	width: 150px;
+	height:150px;
+	border: 1px solid black;
+}
+
+.container_12 p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:14px;
+}

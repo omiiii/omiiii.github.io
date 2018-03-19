@@ -1,0 +1,288 @@
+/*
+	Default Styles
+*/
+
+html,
+body { overflow: hidden }
+body {
+    background-image: url("../img/bg1.png");
+    /* background-position: bottom center;;*/
+    background-attachment: fixed;
+    margin: 0 auto;
+    font-family: "Exo 2", "Arial";
+}
+p {
+    font-family: "Exo 2", "Arial";
+    font-size: 14px;
+}
+section {
+    height: 4000px;
+    padding-top: 6%;
+    margin: 0 auto;
+}
+
+div { overflow: hidden }
+
+hr {
+    color: #9a9e9f;
+    display: block;
+	margin:20px;
+}
+
+h1 {
+	font-size:3rem;
+}
+
+/*
+	Navigation Menu
+*/
+
+.cbp-vimenu { z-index: 100 }
+
+
+/*
+	Reveal Modals
+*/
+.reveal-modal { text-align: center }
+.reveal-modal h1 {
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+.reveal-modal img {
+    width: 100px;
+    margin-bottom: 4%;
+}
+.reveal-modal strong {
+    font-weight: 400;
+    font-size: 14px;
+}
+.reveal-modal p { font-weight: 300 }
+
+/*
+	Right panel
+*/
+.right_panel { float: right }
+
+/*
+	Content a.k.a. the white boxes
+*/
+.content {
+    font-family: "Exo 2", "Arial";
+    font-size: 14px;
+    height: 5.75%;
+    background-color: #000;
+    color: #FFF;
+    margin: auto;
+    padding: 10px 20px 30px 20px;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 3rem;
+    font-weight: 200;
+    text-align: center;
+    margin: 0;
+}
+.content i {
+    color: #9a9e9f;
+    margin-top: 5px;
+    vertical-align: middle;
+}
+
+.content #largetext { display: none }
+.content i:hover { color: #71a632 }
+.content a:link { text-decoration: none }
+.content i:link {
+    color: #FFF;
+    text-decoration: none;
+}
+.content .clearfix {
+    display: inline;
+    margin: 0;
+    list-style-type: none;
+}
+
+/*
+	Home
+*/
+
+#main { padding-top: 10px }
+#home #prof {
+    width: 200px;
+    display: none;
+    margin-top: 9px;
+    margin-bottom: -18px;
+}
+#home #prof_mobile {
+	display: none;
+	margin-top: 10px;
+}
+#home li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#home #social-icons { display: none; margin-bottom: 20px; }
+#largetext { /* the part that says "Student...."*/
+    color: #9a9e9f;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#name {
+	margin:5px;
+}
+#name,
+#smalltext { color: #9a9e9f } /* the part that says "I just want to code pretty things."*/
+.toggle {
+    display: inline;
+    cursor: hand;
+    cursor: pointer;
+}
+.toggle p{
+    color: #9a9e9f;
+}
+.toggle:hover {
+    font-size: 15px;
+    display: block;
+    color: #71a632;
+    cursor: hand;
+    cursor: pointer;
+}
+#more {
+    color: #9a9e9f;
+    display: none;
+}
+#less { display: none }
+
+
+/*
+	About
+*/
+
+#aboutcont #me {
+    width: 42%;
+    margin-right: 10px;
+    position: relative;
+    bottom: 0;
+}
+
+#aboutcontent {
+    height: auto;
+    display: none;
+    padding: 10px 20px 0px 0px;
+    background-color: #FFF;
+    color: #231f20;
+    text-align: center;
+}
+#aboutcont p {
+    text-align: center;
+    margin-bottom: -10px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 2%;
+    color:black;
+}
+#aboutcont i {
+    font-size: 26px;
+    text-align: center;
+    color: #231f20;
+}
+#aboutcont i:hover { color: #71a632 }
+
+/*
+	Portfolio
+*/
+#port {
+    background-color: white;
+    margin-left: 0;
+    padding-top: 6px;
+}
+#portcontent {
+    height: 0;
+    background-color: #FFF;
+    padding: 20px;
+    color: #231f20;
+    text-align: center;
+    height: auto;
+    font-size: 16px;
+    display: none;
+}
+#portcontent img { width: 75% }
+#portcontent #portnavigation p {
+    text-align: center;
+    display: inline;
+    font-size: 18px;
+    list-style-type: none;
+}
+#portcontent #portnavigation p:hover {
+    color: #71a632;
+    cursor: hand;
+    cursor: pointer;
+}
+#portcontent #portnavigation li {
+    display: inline;
+    margin: 0 4%;
+}
+#portnavigation { margin-top: 30px }
+#portcontent h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#portcont hr {
+    color: #231f20;
+    display: block;
+    margin-left: 2px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/*
+	Resume
+*/
+#resume hr {
+    color: black;
+    display: block;
+    margin-top: 10px;
+    margin-left: 0;
+}
+#resume h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+#resume h2 {
+    margin-bottom: -5px;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 400;
+    margin: 1%;
+}
+#resumecontent {
+    background-color: #FFF;
+    color: #231f20;
+    height: auto;
+    text-align: left;
+    display: none;
+    font-size: 12px;
+}
+#resume #download {
+    text-align: center;
+    margin-top: -30px;
+    padding: 0;
+}
+#download p {
+    color: #231f20;
+    font-weight: 400;
+    font-size: 13px;
+}
+#download p:hover { color: #71a632 }
+
+/*
+	Shhhhh! ;)
+*/
+#eggcontent {
+    width: 1000px;
+    height: 1000px;
+}
+#egg { background-color: black };
