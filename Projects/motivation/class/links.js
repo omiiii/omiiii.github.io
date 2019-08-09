@@ -9,7 +9,7 @@ Array.prototype.pick = function () {
 //On page load requests	
 $( document ).ready(function() {
 	$.getJSON(findPhoto(), function (data) {
-		var user = data.pick();
+		var user = data.results.pick();
 		var photo = user.urls.full;
 		var photocredit = user.links.html;
 	    var backup = "https://images.unsplash.com/photo-1445299370299-fba06c02df22?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375"; //If JSON request fails, then this photo url will be used.
@@ -27,7 +27,7 @@ $( document ).ready(function() {
 		var words = data.split("\n").pick();
 		var quote_backup = "Once you choose hope, anything’s possible."	//If the quote request fails, then this quote will be used.
 		if (typeof quote[words] === 'undefined') {
-			$('p').append(quote_backup);
+			$('#quote p').append(quote_backup);
 			return;
 		}				
 		$('#quote p').append(quote[words]);
@@ -40,7 +40,7 @@ $( document ).ready(function() {
 });
 
 function findPhoto() {
-	return "https://api.unsplash.com/photos/?client_id=" + unsplashAPIKey + "&search?page=1&query=" + "scenery";
+	return "https://api.unsplash.com/search/photos?client_id=" + unsplashAPIKey + "&page=1&query=" + "nature";
 }
 
 function findNumber() {

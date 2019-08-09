@@ -78,8 +78,12 @@ h1 {
 }
 
 .accent {
-    color: #177569;
+    color: #2b579a;
     font-weight:500;
+ }
+
+ .accent:visited {
+    color: #2b579a;
  }
 
 /*

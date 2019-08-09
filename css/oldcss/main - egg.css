@@ -1,0 +1,250 @@
+/*
+	Default Styles
+*/
+
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    margin: 0;
+    background:url("../img/blue.jpg");
+    background-position: bottom center;
+    height:auto !important;
+}
+p {
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+
+h1 {
+	font-size:3rem;
+    font-weight: 300;
+}
+
+/*
+
+    Nav
+
+*/
+.nav ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.nav ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+.nav ul li a { 
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #9a9e9f;
+}
+
+
+
+/*
+	Home
+*/
+
+#home {
+    height:100vh;
+    width:100%;
+    margin:0;
+}
+
+#homecontent {
+    width: 35%;
+    margin: 12vh auto 0 auto;
+    display: block;
+    text-align: center;
+    padding:1%;
+    z-index: -1000;
+}
+
+#home #prof {
+    width: 45%;
+    margin-bottom: 3%;
+}
+
+#home li {
+    display: inline-block;
+    margin: 0 3%;
+}
+
+#social-icons {
+    padding-left: 0px;
+    margin:10% 0;
+}
+
+#home a {
+    text-decoration: none;
+}
+
+#home i {
+    color: #9a9e9f;
+}
+
+
+#largetext { /* the part that says "Student...."*/
+    color: #9a9e9f;
+    font-size: 20px;
+    margin: 0 0 6% 0;
+}
+
+#smalltext { /*"I just want to code pretty things."*/
+    font-size: 15px;
+}
+#name {
+	font-weight: 300;
+}
+#name,
+#smalltext { color: #9a9e9f; margin: 0; } /* the part that says "I just want to code pretty things."*/
+
+#scrollit {margin: 5px; font-size: 12px;color: #9a9e9f;text-align: left; bottom: 0; right: 0; position:absolute;}
+
+
+
+/*
+	About
+*/
+
+#about {
+    height:100vh;
+    background-attachment: fixed;
+    margin:0;
+    overflow: hidden;
+}
+
+#aboutcontent {
+    width:60%;
+    margin:7% auto;
+    text-align: justify;
+}
+
+#aboutcontent h1 {
+    font-size:80px;
+    color:#00FF00;
+}
+
+#aboutcontent p,a {
+    font-size: 3.3vh;
+    font-weight:300;
+    color:#00FF00;
+    text-decoration: none;
+} 
+
+#centered {
+    margin:8%;
+    text-align: center;
+}
+
+
+/*
+
+
+
+
+    PORTFOLIO PAGE
+
+
+
+
+*/
+
+
+/*
+
+    Header
+
+*/
+
+#header {
+    height:auto;
+    width:100%;
+    margin:0;
+}
+
+#headercontent {
+    width: 35%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+#header h1 {
+    font-size: 80px;
+    color:#9a9e9f;
+    font-weight: 300;
+}
+
+#header li {
+    display: inline-block;
+    margin: 0 3%;
+}
+
+/*
+
+    Portfolio Content
+
+*/
+
+#portfolio {
+    height:auto;
+    background-attachment: fixed;
+    margin:0;
+    overflow: hidden;
+}
+
+#portfoliocontent {
+    width:100%;
+    margin:7% auto;
+    text-align: justify;
+}
+
+.entry {
+    width:70%;
+    margin: 0 auto 15% auto;
+    text-align:left;
+}
+
+.entry img {
+    width:100%;
+    height:auto;
+    margin: 0 auto;
+}
+
+.entry h1 {
+    font-size:40px;
+    font-weight: 300;
+    text-align: left;
+    color:#00FF00;
+}
+
+.entry p {
+    font-size: 18px;
+    text-align: left;
+    color:#00FF00;
+}
+
+.entry a {
+    text-decoration: none;
+}
+
+.btn {
+  font-size: 20px;
+  background: #FF0000;
+  padding: 10px 20px;
+  text-decoration: none;
+  position: absolute;
+  margin: 1% 0;
+  color: #0000FF !important;
+}
+
+.description {
+	width: 60%;
+	margin:0 auto;
+}
